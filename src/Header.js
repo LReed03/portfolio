@@ -1,11 +1,12 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 import './Header.css';
 
 function Header(){
     return(
         <div className="container">
             <div className="item">
-                <a href="">Home</a>
+                <Link to="/">Home</Link>
             </div>
             <div className="item">
                 <a href="">Projects</a>
@@ -16,6 +17,7 @@ function Header(){
             <div className="item">
                 <a href="">Contact</a>
             </div>
+            <Outlet/>
         </div>
     );
 };
