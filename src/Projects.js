@@ -4,7 +4,7 @@ import Header from "./Header";
 function Projects(){
     return(
         <div>
-            <Header/>
+            <p>Projects</p>
         </div>
     )
 }
