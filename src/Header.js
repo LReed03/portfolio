@@ -9,13 +9,13 @@ function Header(){
                 <Link to="/">Home</Link>
             </div>
             <div className="item">
-                <a href="">Projects</a>
+                <Link to="/Projects">Projects</Link>
             </div>
             <div className="item">
-                <a href="">About Me</a>
+                <Link to="/About">About Me</Link>
             </div>
             <div className="item">
-                <a href="">Contact</a>
+                <Link to="/Contact">Contact Me</Link>
             </div>
             <Outlet/>
         </div>
