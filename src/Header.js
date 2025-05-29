@@ -2,6 +2,8 @@ import React from "react";
 import './Header.css';
 
 function Header({ scrollToHome, scrollToAbout, scrollToProjects, scrollToContact }) {
+
+  // Next step here is to add a effect when I scroll into view of each part
   return (
     <div className="container">
       <div className="item"><a onClick={scrollToHome}>Home</a></div>
