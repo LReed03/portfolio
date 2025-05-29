@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   const homeRef = useRef(null);
@@ -25,6 +26,7 @@ function App() {
       <div ref={aboutRef}><About /></div>
       <div ref={projectsRef}><Projects /></div>
       <div ref={contactRef}><Contact /></div>
+      <Footer/>
     </div>
   );
 }

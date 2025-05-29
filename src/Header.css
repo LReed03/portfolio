@@ -1,18 +1,17 @@
 .container{
     display: flex;
     flex-direction: row;
-    margin: 20px auto;
+    margin: auto;
     justify-content: space-evenly;
     padding: 29px;
-    background-color: rgb(0, 0, 0);
-    width: 75%;
-    border-radius: 12px;
+    background-color: #262626;
+    width: 100%;
     position: sticky;
     top: 0;
 }
 
 .item a{
-    color: rgb(207, 48, 197);
+    color: white;
     text-decoration: none;
     font-size: large;
     font-weight: bold;

@@ -1,0 +1,30 @@
+.logo-container img{
+    width: 45px;
+    margin: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.logo-container img:hover{
+    scale: 1.09;
+}
+
+.footer-container{
+    background-color: #282828;
+    margin: auto;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-container p{
+    color: white;
+    text-align: center;
+}
