@@ -19,7 +19,7 @@ function Reveal({ children, width = "fit-content", direction = "left" }) {
   const textVariants = {
     hidden: {
       opacity: 0,
-      x: direction === "left" ? -75 : 1000,
+      x: direction === "left" ? -150 : 850,
     },
     visible: {
       opacity: 1,
