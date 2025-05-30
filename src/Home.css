@@ -1,0 +1,17 @@
+.home-container h2{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.home-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+

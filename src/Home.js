@@ -1,10 +1,16 @@
 import React from "react";
-import TypeWritterName from "./TypeWriterName";
+import './Home.css';
+import Reveal from "./Reveal";
 
 function Home(){
     return(
-        <div>
-            <TypeWritterName/>
+        <div className="home-container">
+            <Reveal direction="left">
+                <h2>My name is Landon Reed</h2>
+            </Reveal>
+            <Reveal direction="right">
+                <h2>I am a Software Engineering Student</h2>
+            </Reveal>
         </div>
     );
 }
