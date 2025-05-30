@@ -1,4 +1,5 @@
 import React from "react";
+import {motion, useInView, useAnimation} from "framer-motion";
 import Typewriter from "typewriter-effect";
 import './TypeWriterName.css'
 
