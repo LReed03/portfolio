@@ -3,11 +3,13 @@
     flex-direction: row;
     margin: auto;
     justify-content: space-evenly;
-    padding: 29px;
     background-color: #262626;
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .item a{
