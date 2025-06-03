@@ -1,12 +1,12 @@
 .home-container h2{
     color: white;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 225%;
 
 }
 
 .home-container{
-    margin:  8.5% auto;
+    margin:  12.5% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
