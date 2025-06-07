@@ -2,15 +2,15 @@
     color: white;
     font-weight: bold;
     font-size: 225%;
-
 }
 
 .home-container{
-    margin:  12.5% auto;
+    margin:  auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 12.5%;
 }
 

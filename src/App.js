@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import './App.css';
 import Header from './Header';
 import Home from './Home';
@@ -8,29 +8,25 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 function App() {
-  const homeRef = useRef(null);
-  const aboutRef = useRef(null);
-  const projectsRef = useRef(null);
-  const contactRef = useRef(null);
-
   return (
     <div>
-      <div className='home-head'>
-        <Header
-          scrollToHome={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          scrollToAbout={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}
-          scrollToProjects={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}
-          scrollToContact={() => contactRef.current.scrollIntoView({ behavior: 'smooth' })}
-        />
-
-        <div ref={homeRef}><Home /></div>
+      <Header/>
+      <div className="home-head">
+        <Home />
       </div>
-      <div ref={aboutRef}><About /></div>
-      <div ref={projectsRef}><Projects /></div>
-      <div ref={contactRef}><Contact /></div>
-      <Footer/>
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }
+
 
 export default App;

@@ -4,9 +4,11 @@ html{
 
 body{
   background-color: #1a1a1a;
+  margin: 0;
 }
 
 .home-head{
-  min-height: 100vh;
+  height: 90vh;
   width: 100%;
 }
+
