@@ -10,6 +10,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div>
+      <div id="home"></div>
       <Header/>
       <div className="home-head">
         <Home />
