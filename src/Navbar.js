@@ -8,7 +8,7 @@ function Navbar(){
         const options = {
             root: null,
             rootMargin: "0px",
-            threshold: 0.4,
+            threshold: 0.5,
         };
 
         const observer = new IntersectionObserver((entries) => {
@@ -34,7 +34,6 @@ function Navbar(){
                             key={i}
                             href={`#${menu}`}
                             className={activeSection === menu ? "active" : ""}
-                            onClick={() => setActiveSection(menu)}
                             >
                                 {menu}
                             </a>
