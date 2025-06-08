@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
+import './projects.css'
 
 function Projects(){
     return(
-        <div>
+        <div className="projects-container">
             <p>Projects</p>
         </div>
     )

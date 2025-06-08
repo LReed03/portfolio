@@ -1,27 +1,27 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './App.css';
-import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div>
-      <div id="home"></div>
-      <Header/>
+      <div id="Home"></div>
+      <Navbar/>
       <div className="home-head">
         <Home />
       </div>
-      <div id="about">
+      <div id="About">
         <About />
       </div>
-      <div id="projects">
+      <div id="Projects">
         <Projects />
       </div>
-      <div id="contact">
+      <div id="Contact">
         <Contact />
       </div>
       <Footer />
