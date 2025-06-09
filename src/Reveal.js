@@ -3,7 +3,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 
 function Reveal({ children, width = "fit-content", direction = "left" }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref, { once: true});
   const mainControls = useAnimation();
   const slideControls = useAnimation();
 
@@ -47,7 +47,7 @@ function Reveal({ children, width = "fit-content", direction = "left" }) {
   };
 
   return (
-    <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
+    <div ref={ref} style={{ position: "relative", width, overflow: "hidden", paddingBottom: "10px" }}>
       <motion.div
         variants={textVariants}
         initial="hidden"

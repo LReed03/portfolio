@@ -11,7 +11,6 @@ function Footer(){
                 <a href="https://www.linkedin.com/in/landonreed83">
                     <img src="linkedin.png" alt="Linkedin"/>
                 </a>
-                <button>My Resume</button>
             </div>
             <p>Landon Reed ©2025</p>
         </div>
