@@ -1,4 +1,8 @@
 .about-container{
     height: 100vh;
-    background-color: blue;
+}
+
+.pic{
+    height: auto;
+    width: 302px;
 }
