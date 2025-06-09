@@ -6,3 +6,56 @@
     height: auto;
     width: 302px;
 }
+
+.text{
+    width: 540px;
+}
+
+.about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h2{
+    color: rgb(129, 32, 28);
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text h5{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.link{
+    margin-top: 30px;
+}
+
+.resume{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background: rgb(129, 32, 28);
+    padding: 8px 25px;
+    border-radius: 6px;
+    border: none;
+    transition: 0.5s;
+}
+
+.resume:hover{
+    background-color: rgb(70, 5, 2);
+}
