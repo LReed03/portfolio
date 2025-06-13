@@ -1,9 +1,10 @@
 import react from "react";
+import "./ProjectItem.css";
 
 function ProjectItem(props){
     return(
         <div className="projectItem">
-            <img src={props.img} ></img>
+            <a href={props.url}><img src={props.img} ></img></a>
             <p>{props.description}</p>
         </div>
     )
