@@ -1,8 +1,11 @@
 import react from "react";
 
-function ProjectItem(){
+function ProjectItem(props){
     return(
-        <div></div>
+        <div className="projectItem">
+            <img src={props.img} ></img>
+            <p>{props.description}</p>
+        </div>
     )
 }
 
