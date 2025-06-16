@@ -1,9 +1,17 @@
 .projectItem p{
     color: white;
+    max-width: 50rem;
+    text-align: center;
 }
 
 .projectItem img{
-    width: 40%;
+    width: 50rem;
+    border: 5px solid rgb(129, 32, 28);
+    transition: transform .2s;
+}
+
+.projectItem img:hover{
+    transform: scale(0.9);
 }
 
 .projectItem{
@@ -12,4 +20,12 @@
     flex-direction: column;
     align-items: center;
     margin-top: 45px;
+}
+
+.projectItem h3{
+    color: rgb(129, 32, 28);
+    max-width: 50rem;
+    text-align: center;
+    font-size: 35px;
+
 }

@@ -1,4 +1,22 @@
 .projects-container{
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     
+    
+}
+
+.projects-container h2{
+    font-weight: 600px;
+    color: rgb(129, 32, 28);
+    font-size: 60px;
+}
+
+.projects-container hr{
+    border: none;
+    background-color: rgb(129, 32, 28);
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }

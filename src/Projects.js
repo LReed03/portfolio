@@ -5,7 +5,11 @@ import ProjectItem from "./ProjectItem";
 function Projects(){
     return(
         <div className="projects-container">
-            <ProjectItem img={"powerlifting.png"} description = {"A full-stack application designed for strength athletes and coaches to log, analyze, and optimize powerlifting performance using data-driven insights."} url={"https://github.com/LReed03/powerlifting-analysis"}/>
+            <h2>Projects</h2>
+            <ProjectItem img={"powerlifting.png"} 
+            description = {"A full-stack application designed for strength athletes and coaches to log, analyze, and optimize powerlifting performance using data-driven insights."} 
+            url={"https://github.com/LReed03/powerlifting-analysis"}
+            title={"Powerlifting Web App"}/>
         </div>
     )
 }
