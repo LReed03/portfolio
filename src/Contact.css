@@ -14,20 +14,20 @@
 .contact-title h2{
     font-weight: 600px;
     color: rgb(129, 32, 28);
-    font-size: 60px;
+    font-size: 200%;
 }
 
 .contact-title hr{
     border: none;
     background-color: rgb(129, 32, 28);
-    height: 5px;
+    height: 0.3rem;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 .contact-inputs{
-    width: 400px;
-    height: 50px;
+    width: 9rem;
+    height: 2.5rem;
     border: none;
     outline: none;
     padding-left: 25px;
@@ -38,13 +38,13 @@
 }
 
 .contact textarea{
-    height: 140px;
-    padding-top: 15px;
+    height: 8.75rem;
+    padding-top: 1rem;
     border-radius: 20px;
 }
 
 .contact-inputs:focus{
-    border: 2px solid  rgb(129, 32, 28);
+    border: 0.125rem solid  rgb(129, 32, 28);
 }
 
 .contact-inputs::placeholder{
@@ -55,11 +55,12 @@
     display: flex;
     align-items: center;
     padding: 15px 30px;
-    font-size: 15px;
+    font-size: 1rem;
     color:  rgb(129, 32, 28);
-    gap: 10px;
+    gap: 0.625rem;
     border: none;
     border-radius:50px;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
