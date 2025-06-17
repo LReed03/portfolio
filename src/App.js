@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import ParticlesComponent from './ParticlesComponent';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <div id="Home"></div>
       <Navbar/>
       <div className="home-head">
-        <Home />
+        <Home id="Home"/>
+        <ParticlesComponent id = "tsparticles"/>
       </div>
       <div id="About">
         <About />
