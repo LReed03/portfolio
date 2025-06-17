@@ -60,7 +60,7 @@ function ParticlesComponent(props){
             color: "#FFFFFF",
             distance: 150,
             enable: true,
-            opacity: 0.3,
+            opacity: .4,
             width: 1,
             },
             move: {
@@ -70,20 +70,20 @@ function ParticlesComponent(props){
                 default: "bounce",
             },
             random: true,
-            speed: 1,
+            speed: 0.83,
             straight: false,
             },
             number: {
             density: {
                 enable: true,
             },
-            value: 275,
+            value: 425,
             },
             opacity: {
             value: 1.0,
             },
             shape: {
-            type: "circle",
+            type: "",
             },
             size: {
             value: { min: 1, max: 3 },
