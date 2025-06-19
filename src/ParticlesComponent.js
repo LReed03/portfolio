@@ -35,17 +35,17 @@ function ParticlesComponent(props){
             },
             modes: {
             grab: {
-                distance: 200,
+                distance: 150,
             },
             },
         },
         particles: {
             color: {
-            value: "#FFFFFF",
+            value:["#FFFFFF", "rgb(129, 32, 28)", "rgb(9, 41, 131)"],
             },
             links: {
             color: "#FFFFFF",
-            distance: 225,
+            distance: 150,
             enable: false,
             opacity: .4,
             width: 1,
@@ -64,7 +64,7 @@ function ParticlesComponent(props){
             density: {
                 enable: true,
             },
-            value: 225,
+            value: 275,
             },
             opacity: {
             value: 1.0,
@@ -73,7 +73,7 @@ function ParticlesComponent(props){
             type: "circle",
             },
             size: {
-            value: { min: 1, max: 3 },
+            value: { min: 1, max: 2 },
             },
         },
         detectRetina: true,
