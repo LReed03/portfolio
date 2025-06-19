@@ -47,7 +47,7 @@ function Reveal({ children, width = "fit-content", direction = "left" }) {
   };
 
   return (
-    <div ref={ref} style={{ position: "relative", width, overflow: "hidden", paddingBottom: "10px" }}>
+    <div ref={ref} style={{ position: "relative", width, overflow: "hidden", paddingBottom: "10px"  }}>
       <motion.div
         variants={textVariants}
         initial="hidden"

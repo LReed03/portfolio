@@ -23,7 +23,7 @@ function ParticlesComponent(props){
     () => ({
         fullScreen: {
         enable: false,  
-        zIndex: 0     
+        zIndex: -1     
             },
         background: {
             color: {
@@ -77,7 +77,7 @@ function ParticlesComponent(props){
             density: {
                 enable: true,
             },
-            value: 425,
+            value: 350,
             },
             opacity: {
             value: 1.0,
