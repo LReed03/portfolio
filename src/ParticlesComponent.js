@@ -25,30 +25,17 @@ function ParticlesComponent(props){
         enable: false,  
         zIndex: -1     
             },
-        background: {
-            color: {
-          
-        },
-      },
         fpsLimit: 120,
         interactivity: {
             events: {
-            onClick: {
-                enable: true,
-                mode: "repulse",
-            },
             onHover: {
                 enable: true,
                 mode: 'grab',
             },
             },
             modes: {
-            push: {
-                distance: 150,
-                duration: 15,
-            },
             grab: {
-                distance: 150,
+                distance: 200,
             },
             },
         },
@@ -58,8 +45,8 @@ function ParticlesComponent(props){
             },
             links: {
             color: "#FFFFFF",
-            distance: 150,
-            enable: true,
+            distance: 225,
+            enable: false,
             opacity: .4,
             width: 1,
             },
@@ -77,13 +64,13 @@ function ParticlesComponent(props){
             density: {
                 enable: true,
             },
-            value: 350,
+            value: 225,
             },
             opacity: {
             value: 1.0,
             },
             shape: {
-            type: "",
+            type: "circle",
             },
             size: {
             value: { min: 1, max: 3 },

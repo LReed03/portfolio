@@ -12,10 +12,12 @@ body{
   width: 100%;
   position: relative;
   overflow: hidden;
+  
 }
 
 #tsparticles canvas{
   position: absolute;
   top: 0;
   height: 100vh;
+  pointer-events: none;
 }

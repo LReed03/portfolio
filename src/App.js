@@ -13,7 +13,7 @@ function App() {
     <div>
       <div id="Home"></div>
       <Navbar/>
-      <div className="home-head">
+      <div className="home-head" >
         <Home id="Home"/>
         <ParticlesComponent id = "tsparticles"/>
       </div>
