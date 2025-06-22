@@ -3,10 +3,11 @@
     margin: 10px;
     padding-top: 20px;
     text-align: center;
+    transition: transform .4s;
 }
 
 .logo-container img:hover{
-    scale: 1.09;
+    transform: scale(1.2);
 }
 
 .footer-container{
