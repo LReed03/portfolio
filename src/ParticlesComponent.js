@@ -64,7 +64,7 @@ function ParticlesComponent(props){
             density: {
                 enable: true,
             },
-            value: 275,
+            value: 250,
             },
             opacity: {
             value: 1.0,
