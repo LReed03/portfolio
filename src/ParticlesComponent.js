@@ -64,7 +64,7 @@ function ParticlesComponent(props){
             density: {
                 enable: true,
             },
-            value: 250,
+            value: 300,
             },
             opacity: {
             value: 1.0,
@@ -73,7 +73,7 @@ function ParticlesComponent(props){
             type: "circle",
             },
             size: {
-            value: { min: 1, max: 2 },
+            value: { min: 1, max: 3 },
             },
         },
         detectRetina: true,
