@@ -20,7 +20,7 @@ function About(){
                             learning a new tech stack just to see what it can do.
                             Let’s build something awesome!</p>
                         <div className="link">
-                            <a href="" className="resume">Resume</a>
+                            <a href="resume.pdf" className="resume" target="_blank">Resume</a>
                         </div>
                     </div>
                 </Reveal>
