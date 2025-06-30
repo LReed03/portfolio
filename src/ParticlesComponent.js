@@ -23,7 +23,7 @@ function ParticlesComponent(props){
     () => ({
         fullScreen: {
         enable: false,  
-        zIndex: -1     
+        zIndex: -100     
             },
         fpsLimit: 60,
         interactivity: {
@@ -64,7 +64,7 @@ function ParticlesComponent(props){
             density: {
                 enable: true,
             },
-            value: 300,
+            value: 325,
             },
             opacity: {
             value: 1.0,
