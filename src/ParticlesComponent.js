@@ -22,7 +22,7 @@ function ParticlesComponent(props){
   const options = useMemo(
     () => ({
         fullScreen: {
-        enable: false,  
+        enable: true,  
         zIndex: -1     
             },
         fpsLimit: 60,
@@ -35,7 +35,7 @@ function ParticlesComponent(props){
             },
             modes: {
             grab: {
-                distance: 150,
+                distance: 200,
             },
             },
         },
@@ -64,7 +64,7 @@ function ParticlesComponent(props){
             density: {
                 enable: true,
             },
-            value: 300,
+            value: 165,
             },
             opacity: {
             value: 1.0,
