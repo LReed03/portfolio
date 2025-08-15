@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css';
 import Reveal from "./Reveal";
+import profile from './Images/profile.jpg';
 
 function About(){
     return(
@@ -8,7 +9,7 @@ function About(){
             <div className="about">
                 <h2>About Me</h2>
                 <Reveal direction="left">
-                    <img src="profile.jpg" alt="Headshot" className="pic"></img>
+                    <img src={profile} alt="Headshot" className="pic"></img>
                 </Reveal>
                 <Reveal direction="right">
                     <div className="text">
