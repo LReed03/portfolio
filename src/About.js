@@ -5,7 +5,7 @@ import profile from './Images/profile.jpg';
 
 function About(){
     return(
-        <div className="about-container">
+        <div className="about-container" id="about">
             <div className="about">
                 <h2>About Me</h2>
                 <Reveal direction="left">
@@ -13,13 +13,10 @@ function About(){
                 </Reveal>
                 <Reveal direction="right">
                     <div className="text">
-                        <h5>Software Engineering Student</h5>
-                        <p>Hey! I’m a Software Engineering student who’s into building cool and useful things with code.
-                            Right now, I’m learning a bit of everything — from front-end stuff like HTML/CSS and JavaScript to back-end tools like Java and databases. 
-                            I’m especially into creating apps that are actually fun or helpful to use.
-                            I’m the kind of person who loves figuring things out, whether it’s fixing a bug that won’t go away or 
-                            learning a new tech stack just to see what it can do.
-                            Let’s build something awesome!</p>
+                        <h5>Hi, I'm' Landon Reed!</h5>
+                        <p>I’m a third-year Software Engineering student at the University of Calgary passionate about building practical, user-focused applications. I specialize in full-stack development with React, Flask, and Java, with growing expertise in PostgreSQL and AI-assisted tools. I love transforming ideas into clean, efficient, and intuitive software — from the first line of code to the final deployment.
+                            <br/><br/>When I’m not coding, I’m often training in the gym or exploring creative outlets like Lego and music, which inspire my problem-solving and attention to detail.
+                            <br/><br/>Explore my projects or view my resume to learn more..</p>
                         <div className="link">
                             <a href="resume.pdf" className="resume" target="_blank">Resume</a>
                         </div>

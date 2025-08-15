@@ -16,9 +16,25 @@
     z-index: 100;
 }
 
+.scroll-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(129, 32, 28);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.scroll-btn:hover {
+  background-color: #933b30;
+}
+
 @media (max-width: 600px) {
     .home-container {
-        padding-top: 55%;
+        padding-top: 42%;
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -28,3 +44,4 @@
         line-height: 1.2; 
     }
 }
+
