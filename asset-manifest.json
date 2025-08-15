@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e779050f.css",
+    "main.css": "/portfolio/static/css/main.804a13c6.css",
     "main.js": "/portfolio/static/js/main.d66cd4a3.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/ENSF380UML.png": "/portfolio/static/media/ENSF380UML.e122aed3e01db8de547e.png",
     "static/media/coursetrack.png": "/portfolio/static/media/coursetrack.699b7933f4693807ec3e.png",
     "static/media/powerlifting.png": "/portfolio/static/media/powerlifting.fdc9cfe366d0448f06ed.png",
     "index.html": "/portfolio/index.html",
-    "main.e779050f.css.map": "/portfolio/static/css/main.e779050f.css.map",
+    "main.804a13c6.css.map": "/portfolio/static/css/main.804a13c6.css.map",
     "main.d66cd4a3.js.map": "/portfolio/static/js/main.d66cd4a3.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e779050f.css",
+    "static/css/main.804a13c6.css",
     "static/js/main.d66cd4a3.js"
   ]
 }
