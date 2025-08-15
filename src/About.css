@@ -26,9 +26,9 @@
   grid-area: title;
   width: 100%;
   color: rgb(129, 32, 28);
-  font-weight: 600;
+  font-weight: 600px;
   margin: 0 0 0.5rem 0;
-  font-size: clamp(2rem, 6vw, 4rem);
+  font-size: 60px;
   line-height: 1.05;
   text-align: center;  
 }
@@ -117,11 +117,16 @@
   .link{
     margin-top: 1rem;
   }
+
+  .about > h2{
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+  }
 }
 
 
 @media (max-width: 380px){
   .resume{
-    width: 100%;
+    width: 60%;
   }
 }
