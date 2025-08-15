@@ -38,3 +38,22 @@ nav a:hover{
 .active{
     background-color: rgb(129, 32, 28);
 }
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; 
+        height: auto; 
+        padding: 0.5rem 0;
+    }
+    
+    nav {
+        flex-wrap: wrap; 
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    nav a {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}

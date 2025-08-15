@@ -27,3 +27,29 @@
     text-align: center;
     font-size: 35px;
 }
+
+@media (max-width: 900px) {
+    .projectItem img {
+        width: min(40rem, 90vw);
+    }
+}
+
+
+@media (max-width: 640px) {
+    .projectItem {
+        padding: 0.75rem;
+    }
+    .projectItem img {
+        width: 100%;
+    }
+    .projectItem h3,
+    .projectItem p {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .projectItem h3 {
+        font-size: 1.25rem;
+    }
+}

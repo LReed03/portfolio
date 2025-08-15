@@ -6,12 +6,12 @@ function About(){
     return(
         <div className="about-container">
             <div className="about">
+                <h2>About Me</h2>
                 <Reveal direction="left">
                     <img src="profile.jpg" alt="Headshot" className="pic"></img>
                 </Reveal>
                 <Reveal direction="right">
                     <div className="text">
-                        <h2>About Me</h2>
                         <h5>Software Engineering Student</h5>
                         <p>Hey! I’m a Software Engineering student who’s into building cool and useful things with code.
                             Right now, I’m learning a bit of everything — from front-end stuff like HTML/CSS and JavaScript to back-end tools like Java and databases. 
