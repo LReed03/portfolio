@@ -41,8 +41,7 @@ nav a:hover{
 
 @media (max-width: 600px) {
     .container {
-        flex-direction: column; 
-        height: auto; 
+        flex-direction: column;  
         padding: 0.5rem 0;
         padding-left: .25rem;
         padding-right: .25rem;
