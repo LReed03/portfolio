@@ -6,7 +6,7 @@ function Footer(){
         <div className="footer-container">
             <div className="logo-container">
                 <a href="https://github.com/LReed03">
-                    <img src="/github.png" alt="github"/>
+                    <img src="github.png" alt="github"/>
                 </a>
                 <a href="https://www.linkedin.com/in/landonreed83">
                     <img src="linkedin.png" alt="Linkedin"/>
