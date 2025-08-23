@@ -11,7 +11,7 @@ function Projects(){
         <div className="projects-container">
             <h2>Projects</h2>
             <ProjectItem img={courseTrack}
-            description={"A React-based productivity application with a Flask backend that helps students manage coursework, track assignments, and organize schedules. Features include a dynamic calendar for planning study sessions, a course management system that links tasks and to-do items directly to specific classes, and a task list for efficient tracking. Future updates will integrate PostgreSQL for persistent storage and AI-powered quiz generation to enhance learning efficiency."}
+            description={"This project is a React-based productivity application with a Flask backend that helps students stay organized with their coursework. It features Firebase Authentication with server-side JWT validation to provide secure user access, a dynamic calendar for planning study sessions and deadlines, and a course management system that links tasks directly to specific classes. A task list makes it easy to track assignments and daily to-dos. Future updates will integrate PostgreSQL for persistent data storage and an AI-powered quiz generator to automatically create study materials."}
             title={"Course Management & AI Study Assistant"}/>
             <ProjectItem img={powerlifting} 
             description = {"A full-stack application built to help strength athletes and coaches analyze competition preformance. This app fetches athlete data from openpowerlifting.org using Beautiful Soup in Python via Flask. The frontend UI is designed through React."} 
