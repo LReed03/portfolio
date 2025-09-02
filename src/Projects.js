@@ -11,6 +11,7 @@ function Projects(){
         <div className="projects-container">
             <h2>Projects</h2>
             <ProjectItem img={courseTrack}
+            url={"https://course-track-fb2fa.web.app/"}
             description={"This project is a React-based productivity application with a Flask backend that helps students stay organized with their coursework. It features Firebase Authentication with server-side JWT validation to provide secure user access, a dynamic calendar for planning study sessions and deadlines, and a course management system that links tasks directly to specific classes. A task list makes it easy to track assignments and daily to-dos. Future updates will integrate PostgreSQL for persistent data storage and an AI-powered quiz generator to automatically create study materials."}
             title={"Course Management & AI Study Assistant"}/>
             <ProjectItem img={powerlifting} 
