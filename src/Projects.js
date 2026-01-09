@@ -4,12 +4,17 @@ import ProjectItem from "./ProjectItem";
 import courseTrack from './Images/coursetrack.png';
 import powerlifting from './Images/powerlifting.png';
 import ensfUml from './Images/ENSF380UML.png';
+import fms from './Images/fms.png'
 
 
 function Projects(){
     return(
         <div className="projects-container">
             <h2>Projects</h2>
+            <ProjectItem img={fms}
+            url={"https://github.com/LReed03/ENSF480-Final-Project"}
+            description={"I developed a Flight Management System (FMS)–style desktop application that supports planning and managing flight operations through an interactive graphical interface. The system was designed to reflect real-world aviation software concerns, including role-based access control, authentication, and maintainable architecture."}
+            title={"Flight Management Software"}/>
             <ProjectItem img={courseTrack}
             url={"https://course-track-fb2fa.web.app/"}
             description={"This project is a React-based productivity application with a Flask backend that helps students stay organized with their coursework. It features Firebase Authentication with server-side JWT validation to provide secure user access, a dynamic calendar for planning study sessions and deadlines, and a course management system that links tasks directly to specific classes. A task list makes it easy to track assignments and daily to-dos. Future updates will integrate PostgreSQL for persistent data storage and an AI-powered quiz generator to automatically create study materials."}
