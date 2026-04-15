@@ -5,12 +5,22 @@ import courseTrack from './Images/coursetrack.png';
 import powerlifting from './Images/powerlifting.png';
 import ensfUml from './Images/ENSF380UML.png';
 import fms from './Images/fms.png'
+import iq from './Images/iqtestapp.png'
+import sb from './Images/sustainabuilder.png'
 
 
 function Projects(){
     return(
         <div className="projects-container">
             <h2>Projects</h2>
+            <ProjectItem img={sb}
+            url={"https://github.com/LReed03/seng401-city-sim"}
+            description={"A Godot 4 and GDScript tile-based city builder paired with a Node.js Express API that registers players, validates logins, and save/loads full city state to PostgreSQL as JSONB in fixed save slots using plpgsql routines and bcrypt-style password hashing. The sim rolls up sustainability, population, economy, tax, upkeep, unemployment, and happiness from placed roads, housing, parks, factories, and water—factory revenue depends on worker assignment, and weak morale cuts income and can shrink population or penalize new housing—supporting play aligned with UN SDG 11. The client covers main menu, login/signup, load and save, tutorial, pause and settings, and the in-game build HUD with objectives, milestones, and achievements."}
+            title={"SustainaBuilder"}/>
+            <ProjectItem img={iq}
+            url={"https://github.com/VLukeC/iqtestapp"}
+            description = {"A React Router (TypeScript) and Tailwind front end paired with a Flask API that uses Google Gemini to generate text-only multiple-choice IQ-style questions and to produce scored results with an estimated IQ and explanation. Supabase handles authentication and stores profiles, user quiz preferences, and completed attempts in PostgreSQL with row-level policies so each user only sees their own data, with routes for home, quiz, results, history, account, login, signup, and password reset."}
+            title={"AI-Generated IQ Test"}/>
             <ProjectItem img={fms}
             url={"https://github.com/LReed03/ENSF480-Final-Project"}
             description={"I developed a Flight Management System (FMS)–style desktop application that supports planning and managing flight operations through an interactive graphical interface. The system was designed to reflect real-world aviation software concerns, including role-based access control, authentication, and maintainable architecture."}
